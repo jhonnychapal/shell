@@ -1,0 +1,25 @@
+.contenedor {
+    margin-top: 100px;
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 50px 0px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+}
